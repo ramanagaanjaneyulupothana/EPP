@@ -1,0 +1,53 @@
+/* Main trapezium bar */
+.bg-maroon {
+  background-color: #910B3D;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+  padding: 12px 0;
+}
+
+/* Center wrapper - fixed and spaced */
+.navbar-centered {
+  position: fixed;
+  top: 70px;             /* adjust as needed based on your header height */
+  left: 15%;
+  width: 70%;            /* leaves 15% space on both sides */
+  z-index: 1000;         /* stays above content */
+  text-align: center;
+}
+
+/* Nav links */
+.nav-link-custom {
+  margin: 0 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffc107 !important; /* golden hover effect */
+}
+
+/* Transparent dropdown button */
+.transparent-btn {
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .navbar-centered {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-centered {
+    left: 2.5%;
+    width: 95%;
+  }
+}

@@ -1,0 +1,7 @@
+.registration-box {
+  background-color: #ffc04d;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

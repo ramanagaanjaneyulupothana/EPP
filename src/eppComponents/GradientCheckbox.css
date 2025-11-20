@@ -1,0 +1,21 @@
+.gradient-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(45deg, #ff5f00, #ffff00) border-box;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.gradient-checkbox:checked {
+  background: linear-gradient(45deg, #ff5f00, #ffff00);
+  border: none;
+}
+
+.gradient-checkbox:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 191, 0, 0.4);
+}

@@ -1,0 +1,104 @@
+/* Header.css */
+
+.d-flex {
+  /* optional custom styles */
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.header-section {
+  background-color: white;
+  width: 100%;
+  padding: 3px 0;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+   position: fixed;       /* Make it fixed */
+  top: 0;                /* Stick to top */
+  left: 0;
+  z-index: 1000;         /* Keep above all other elements */
+}
+
+
+
+/* Content starts after 30% space on left side */
+.header-content {
+  width: 70%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .header-content {
+    width: 80%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-content {
+    width: 90%;
+    margin-left: 10%;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+
+.header-content img {
+  height: 50px;
+}
+
+a.btn {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.btn:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.login-btn {
+  background-color: #910B3D !important;
+  border: none !important;
+}
+
+
+
+
+
+
+
+.header-logo {
+  height: 60px;
+}
+
+.header-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.header-icon {
+  font-size: 1.3rem;
+}
+
+.login-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/*for not moving while Scrolling*/
+
+
