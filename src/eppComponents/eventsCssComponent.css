@@ -1,0 +1,48 @@
+
+.event-card-container {
+  width: 370px;
+  margin: 20px auto;
+}
+
+/* Main Box */
+.event-card {
+  background: white;
+  border-radius: 15px;
+  border: 2px solid #e34a67;
+  overflow: hidden;
+}
+
+/* Image */
+.event-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text */
+.date-text {
+  color: #444;
+  margin-top: 4px;
+}
+
+.quote-text {
+  font-style: italic;
+  color: #333;
+}
+
+/* Buy Button */
+.buy-now-btn {
+  background: linear-gradient(90deg, #fc7a00, #ffb300);
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+}
+
+/* Register Button */
+.register-btn {
+  background: #b30049;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+}

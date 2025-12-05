@@ -1,0 +1,22 @@
+.white-box-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 5; /* Keeps white box above poster */
+}
+
+/* Main white box */
+.white-box {
+  width: 70%;                       /* adjust if needed */
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+  /* The magic part: overlap effect */
+  margin-top: -250px;              /* pulls it into the green section */
+  margin-bottom: 60px;             /* spacing above footer */
+
+  min-height: 300px;               /* you can change */
+}
